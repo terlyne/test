@@ -1,0 +1,136 @@
+# Файлы и директории, которые следует игнорировать
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Временные файлы
+*.tmp
+*.bak
+*.log
+*.pid
+
+# Файлы операционных систем
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+venv*/
+env*/
+.venv*/
+
+# Тестовые кэши и отчеты
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Локальные настройки
+local_settings.py
+.env
+.env.local
+.env.*.local
+secrets.py
+
+# Файлы сборки и установки
+*.mo
+*.pot
+*.pyc
+
+# Базы данных
+*.db
+*.sqlite
+
+# Выходные файлы вашего проекта (если нужно)
+output.json
+*.csv
+*.xlsx
+
+# Логи
+logs/
+*.log
+
+# Файлы специфичные для Windows
+[Tt]humbs.db
+ehthumbs_vista.db
+
+# Файлы специфичные для Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Файлы специфичные для Linux
+*~
+
+# Файлы специфичные для PyCharm
+.idea/
+*.iml
+
+# Файлы специфичные для Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Файлы специфичные для Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Файлы специфичные для Vim
+*.swp
+*.swo
+*.un~
+
+# Файлы специфичные для Emacs
+*~
+\#*
+.\#*
+
+# Файлы специфичные для Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
