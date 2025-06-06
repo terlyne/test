@@ -6,8 +6,8 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/terlyne/workmate_test-task.git
-cd workmate_test-task
+git clone https://github.com/terlyne/test.git
+cd test
 ```
 
 2. Создайте и активируйте виртуальное окружение:
